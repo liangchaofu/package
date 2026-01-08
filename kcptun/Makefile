@@ -59,7 +59,7 @@ endef
 KCPTUN_COMPONENTS:=client server
 
 $(foreach component,$(KCPTUN_COMPONENTS), \
-  $(eval $(call Package/kcptun-new/Default,$(component))) \
-  $(eval $(call GoBinPackage,kcptun-new-$(component))) \
-  $(eval $(call BuildPackage,kcptun-new-$(component))) \
+  $(eval $(call Package/kcptun/Default,$(component))) \
+  $(eval $(call GoBinPackage,kcptun-$(component))) \
+  $(eval $(call BuildPackage,kcptun-$(component))) \
 )
