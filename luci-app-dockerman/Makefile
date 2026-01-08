@@ -1,6 +1,5 @@
 include $(TOPDIR)/rules.mk
 
-
 PKG_NAME:=luci-app-dockerman-new
 LUCI_TITLE:=LuCI Support for docker
 LUCI_DEPENDS:=@(aarch64||arm||x86_64) \
