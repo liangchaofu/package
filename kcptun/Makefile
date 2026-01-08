@@ -7,7 +7,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=kcptun-new
+PKG_NAME:=kcptun
 PKG_VERSION:=20230214
 PKG_RELEASE:=1
 
